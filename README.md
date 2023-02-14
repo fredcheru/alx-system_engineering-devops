@@ -1,1 +1,1 @@
-My third readme
+redme for variables and expansions
