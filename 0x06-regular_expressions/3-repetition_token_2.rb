@@ -1,10 +1,3 @@
-#!/usr/bin/env bash
-# Displays "To infinity and beyond" indefinitely,
-# with a "sleep 2" in between each iteration.
-
-while true
-do
-  echo "To infinity and beyond"
-  sleep 2
-done
-
+#!/usr/bin/env ruby
+# a Ruby script that accepts one argument and pass it to a regular expression matching method
+puts ARGV[0].scan(/hbt+n/).join

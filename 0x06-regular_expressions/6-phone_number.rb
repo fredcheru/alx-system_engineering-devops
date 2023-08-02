@@ -1,5 +1,4 @@
-#!/usr/bin/env bash
-# Kills the 4-to_infinity_and_beyond process.
-
-pkill -f 4-to_infinity_and_beyond
+#!/usr/bin/env ruby
+# A regular expression that is matches 10 digit phone number
+puts ARGV[0].scan(/^[0-9]{10}$/).join
 

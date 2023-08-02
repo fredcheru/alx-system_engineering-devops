@@ -1,12 +1,3 @@
-#!/usr/bin/env bash
-# Displays "To infinity and beyond" indefinitely,
-# with a sleep 2 in between each iteration.
-# Displays "I am invincible!!!" in between each iteration.
-
-while true
-do
-	echo "To infinity and beyond"
-	sleep 2
-	trap 'echo "I am invincible"' SIGTERM 
-done
-
+#!/usr/bin/env ruby
+# A regular expression that matches only capital letters
+puts ARGV[0].scan(/[A-Z]/).join
